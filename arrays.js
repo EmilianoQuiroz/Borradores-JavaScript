@@ -1,6 +1,7 @@
 //--------ARRAYS---------//
 
 //Array vacio
+/*
 let array = [];
 //Asignacion de datos ¿Como llenar un array vacio?
 array[0] = "Pepe";
@@ -8,6 +9,7 @@ array[1] = "Juan";
 array[2] = "luis";
 array[3] = "luca";
 array[4] = "fran";
+*/
 //Escribimos el nombre del array luego entre corchetes
 //El numero del indice y por ultimo le asignamos el dato
 /*
@@ -76,7 +78,31 @@ el elemento que pasemos como parametro
 
 //alert(miArray.join("<>"));
 
-//CONCAT ==>Combina dps aarrays en unos solo
+//CONCAT ==>Combina dos aarrays en unos solo
+const perros = ["Ronnie","Puppy"];
+const gatos = ["Michies", "Gati"];
 
+const mascotas = perros.concat(gatos);
 
+console.log(mascotas);
+ 
+//Index OFF
+/*Devuelve la posicion en la que se encuentra 
+el nombre que estoy buscando
+Ej
 
+console.log(nombres.indexOf('Nombre que busco'))
+da como resultado la posicion en la que se encuentra
+lo que busco dentro de "nombres"
+*/
+/*INCLUDES
+Funciona en su estructura como index Off
+solo que en vez de un valor nos devuelve un
+true o un false
+*/
+/*
+REVERSE
+da vuelta todo el array con
+el metodo.reverse()
+Modfica todo el array
+*/
